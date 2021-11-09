@@ -10,7 +10,7 @@ import {
     HeaderImg2
 } from './HeaderStyle'
 
-import { FiArrowRightCircle, FiArrowLeftCircle } from 'react-icons/fi'
+
 
 import blackwoman1 from '../../Assets/images/blackwoman1.webp'
 import blackwoman2 from '../../Assets/images/blackwoman2.webp'
@@ -18,8 +18,6 @@ import blackwoman2 from '../../Assets/images/blackwoman2.webp'
 const Header = () => {
     return (
         <HeaderWrapper>
-            {/* <FiArrowRightCircle  style={{alignItems: 'center'}}/>
-            <FiArrowLeftCircle /> */}
             <HeaderText>
                 <HeaderTagLine>Who are we?</HeaderTagLine>
                 <HeaderSubText>

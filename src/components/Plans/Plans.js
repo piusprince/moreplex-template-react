@@ -36,7 +36,7 @@ const Plans = () => {
                         </PlansLink>
                     </PlansLinkContainer>
                 </PlansTextContainer>
-                <PlansImg src={group}/>
+                <PlansImg src={group} alt="Group workers"/>
             </PlansContainer>
         </PlansWrapper>
     )
