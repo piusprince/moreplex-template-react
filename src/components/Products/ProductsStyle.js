@@ -12,7 +12,7 @@ export const ProductsTitle = styled.h1`
 
 export const ProductsContainer = styled.div`
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 2fr 1fr;
     margin: 5rem 0;
     grid-template-areas: "a b";             
     background-image: linear-gradient(108.78deg, #FEE9CF 11.5%, rgba(254, 233, 207, 0) 75.13%);
@@ -21,6 +21,7 @@ export const ProductsContainer = styled.div`
 
     &:nth-child(3) {
         grid-template-areas: "b a"; 
+        grid-template-columns: 1fr 2fr;
         background-image: linear-gradient(236.49deg, #FEE9CF 22.81%, rgba(254, 233, 207, 0) 71.99%);
     }
 `
@@ -44,7 +45,7 @@ export const ProductDesc = styled.p`
 
 export const ProductImg = styled.img`
     grid-area: b;
-
+   
 `
 
 export const ProductLink = styled.a`
