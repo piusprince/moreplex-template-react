@@ -5,8 +5,6 @@ export const HeaderWrapper = styled.header`
     display: grid;
     grid-template-columns: repeat(2,1fr);
     background-color:  #FEE9CF;
-    width: 144rem;
-    max-width: 100%;
     height: auto;
     padding: 10rem 10rem 0;
 `
