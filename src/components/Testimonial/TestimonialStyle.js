@@ -12,7 +12,7 @@ export const TestimonialTitle = styled.h1`
 
 export const TestimonialBg = styled.div`
 
-    background-image: linear-gradient(105.76deg, #FEE9CF 32.12%, rgba(236, 135, 228, 0) 102.82%);
+    background-image: linear-gradient(114.8deg, #FEE9CF 35.46%, #EC87E4 130.72%);
     border-radius: 2.8rem
 `
 
